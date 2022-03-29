@@ -1,2 +1,2 @@
-Здравствуйте, <?php $_GET['name']; ?>.
-Вы любите  <?php $_GET['like']; ?> и учитесь  <?php $_GET['education']; ?>
+Здравствуйте, <?php $_get['name']; ?>.
+Вы любите  <?php $_get['like']; ?> и учитесь  <?php $_get['education']; ?>
