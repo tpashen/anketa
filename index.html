@@ -1,0 +1,31 @@
+<html>
+  <head><title>Анкета </title>
+  </head>
+  <body>
+    <form  action=“test.php" method=“get">
+      <label for="name"> Ім'я</label>
+      <input type='text' placeholder="Введіть ваше ім'я" required>
+      <div>
+        Більше подобаються:<br>
+        <input type='radio' name='like' value='cat'><label for="like_cat"> Котики</label>
+        <input type='radio' name='like' value='dog'><label for="like_dog"> Песики</label>
+      </div>
+      <div>
+       <label for="education"> Зараз навчаюсь</label> <br>
+        <select name='education'>
+          <option value='none'>Не вказано</option>
+          <option value='school'>У школі</option>
+          <option value='univer'>У ВНЗ</option>
+          <option value='other'>Інше</option>
+        </select>
+      </div>
+      <div>
+      <label for="agree"> Згода на обробку персональних даних </label> <br> 
+        <input type='checkbox' name='agree' value='1'>
+      </div>  
+      <div>
+        <button type='submit'>Відправити дані</button>    
+      </div> 
+    </form>
+  </body>
+</html>
